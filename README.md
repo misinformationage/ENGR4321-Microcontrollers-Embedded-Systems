@@ -1,4 +1,4 @@
-# [Project Name: Exercise 5.5 Detect Human Movement]
+# [Exercise 5.5 Detect Human Movement]
 
 **Course:** ENGR 4321 Microcontroller and Embedded Systems  
 **Student:** Skylar Stanke  
