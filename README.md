@@ -1,7 +1,7 @@
 # Table of Contents
 This repository contains a source-folder and project description for multiple ENGR 4321 Microcontroller and Embedded Systems projects. For organization and ease of access, the following links will route to each project description in this README.
 
-- [Exercise 5.5 Detect Human Movement](Exercise 5.5 Detect Human Movement)
+- ([Exercise 5.5 Detect Human Movement](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#exercise-55-detect-human-movement))
 
 # [Exercise 5.5 Detect Human Movement]
 
