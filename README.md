@@ -25,7 +25,7 @@ This project uses a PIR motion sensor to detect movement, and then uses that inp
 The ESP32 reads the digital signal from the PIR motion sensor, interpretting the presence of motion as either a 0 "false" or 1 "true". In Wokwi this is done by clicking on the sensor during the simulation, and then toggling a popup. During the setup phase of the code, the LCD, LED, and serial port of the ESP32 are intialized. For the remainder of the code, an IF statement loops. This IF statement checks whether the PIR sensor is reporting motion or not, then displays the relevant message to the LCD. If motion is detected, the LED will be activated. After a delay, this logic is looped until motion is no longer being reported by the PIR sensor.
 
 ## Block Diagram
-
+<img width="351" height="232" alt="Ex5 5_Block_Diagram" src="https://github.com/user-attachments/assets/4bdcc530-9ef9-4a8b-93f8-c69add50cabd" />
 
 # [Exercise 8.6 Temperature and Humidity Monitoring with Adafruit IO]
 
