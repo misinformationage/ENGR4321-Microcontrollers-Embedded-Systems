@@ -42,4 +42,4 @@ This project uses the ESP32's WiFi capability to connect to an Adafruit IO dashb
 [Click here to view the Wokwi Simulation](https://wokwi.com/projects/456415876763237377)
 
 ## How It Works
-The ESP32 ...
+The ESP32 uses WiFi, MQTT, and the Adafruit API to subscribe and publish to data feeds. These data feeds are accessable through a dashboard setup on an Adafruit IO account, where "temperature" and "humidity" are displayed, as well as a toggle switch for the "LED" feed. The ESP32 subscribes to the "LED" feed to receive information, and publishes to the "temperature" and "humidity" feeds using analog data it read from a DHT22 sensor. When the "LED" feed returns a value of "ON" to the ESP32, it sets the LED state to HIGH, otherwise it reverts back to LOW state. To maintain connectivity, the MQTT server attempts a reconnection every void loop, as well as refuses to publish values to feeds that are NaN.
