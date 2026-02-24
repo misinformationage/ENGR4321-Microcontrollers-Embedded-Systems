@@ -2,6 +2,7 @@
 This repository contains a source-folder and project description for multiple ENGR 4321 Microcontroller and Embedded Systems projects. For organization and ease of access, the following links will route to each project description in this README.
 
 - ([Exercise 5.5 Detect Human Movement](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#exercise-55-detect-human-movement))
+- ([Exercise 8.6 Temperature and Humidity Monitoring with Adafruit IO](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#exercise-86-temperature-and-humidity-monitoring-with-adafruit-io))
 
 # [Exercise 5.5 Detect Human Movement]
 
