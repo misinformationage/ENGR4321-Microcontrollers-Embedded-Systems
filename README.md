@@ -31,7 +31,7 @@ The ESP32 reads the digital signal from the PIR motion sensor, interpretting the
 **Date:** February 23rd 2026  
 
 ## Project Overview
-This project ...
+This project uses the ESP32's WiFi capability to connect to an Adafruit IO dashboard, using it to store temperature and humidity values from a local DHT22 sensor. Additionally, the dashboard is used to remotely control the power of an LED.
 
 ## Hardware Components (Simulated)
 * **Microcontroller:** ESP32 DevKit V1  
