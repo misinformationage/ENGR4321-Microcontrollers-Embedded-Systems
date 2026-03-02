@@ -50,3 +50,26 @@ The ESP32 uses WiFi, MQTT, and the Adafruit API to subscribe and publish to data
 
 ## Block Diagram
 <img width="486" height="292" alt="Ex8 6_Block_Diagram" src="https://github.com/user-attachments/assets/c9dc3d96-d276-4f60-8457-144f04a74063" />
+
+# [Project 1: Smart Greenhouse]
+
+**Course:** ENGR 4321 Microcontroller and Embedded Systems  
+**Student:** Skylar Stanke  
+**Date:** March 2n. 2026  
+
+## Project Overview
+This project expands upon previous exercises, using sensors, data pulled from OpenWeather API, and Wifi capability to publish to an Adafruit IO dashboard. The dashboard, as well as an LED, LCD, and buzzer function to alert plant owners when negative conditions have been reported in a greenhouse that the ESP32 resides in.
+
+## Hardware Components (Simulated)
+* **Microcontroller:** ESP32 DevKit V1  
+* **Input:** [DHT22 Sensor, Light Sensor, PIR Motion Sensor, OpenWeather API]  
+* **Output:** [Adafruit IO Dashboard, RGB LED, Buzzer, I2C LCD]  
+
+## Simulation Link
+[Click here to view the Wokwi Simulation](https://wokwi.com/projects/456779664065616897)
+
+## How It Works
+
+On startup the ESP32 establishes connections to Adafruit IO and OpenWeather, and then maintains these connections throughout the loop. It then collects and processes data from the light sensor, DHT22 sensor, and PIR motion sensor, and runs it through logic checks to determine two messages. One message is for if motion is detected by the PIR sensor, and the other message is for temperature being too hot or cold. Next the ESP32 displays the two messages on the LCD, activates the buzzer and changes the LED color accordingly, and publishes the data to the dashboard. After delaying the loop to prevent API limits, it repeats again.
+
+## Block Diagram
