@@ -3,6 +3,7 @@ This repository contains a source-folder and project description for multiple EN
 
 - ([Exercise 5.5 Detect Human Movement](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#exercise-55-detect-human-movement))
 - ([Exercise 8.6 Temperature and Humidity Monitoring with Adafruit IO](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#exercise-86-temperature-and-humidity-monitoring-with-adafruit-io))
+- ([Project 1: Smart Greenhouse](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems/blob/main/README.md#project-1-smart-greenhouse))
 
 # [Exercise 5.5 Detect Human Movement]
 
@@ -73,3 +74,4 @@ This project expands upon previous exercises, using sensors, data pulled from Op
 On startup the ESP32 establishes connections to Adafruit IO and OpenWeather, and then maintains these connections throughout the loop. It then collects and processes data from the light sensor, DHT22 sensor, and PIR motion sensor, and runs it through logic checks to determine two messages. One message is for if motion is detected by the PIR sensor, and the other message is for temperature being too hot or cold. Next the ESP32 displays the two messages on the LCD, activates the buzzer and changes the LED color accordingly, and publishes the data to the dashboard. After delaying the loop to prevent API limits, it repeats again.
 
 ## Block Diagram
+<img width="681" height="581" alt="Project1_Block_Diagram" src="https://github.com/user-attachments/assets/b2de53b1-eb5d-40e8-8c3d-d0c25570597f"/>
