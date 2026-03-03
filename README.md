@@ -3,7 +3,7 @@ This repository contains a source-folder and project description for multiple EN
 
 - ([Exercise 5.5 Detect Human Movement](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#exercise-55-detect-human-movement))
 - ([Exercise 8.6 Temperature and Humidity Monitoring with Adafruit IO](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#exercise-86-temperature-and-humidity-monitoring-with-adafruit-io))
-- ([Project 1: Smart Greenhouse](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems/blob/main/README.md#project-1-smart-greenhouse))
+- ([Project 1: Smart Greenhouse](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#project-1-smart-greenhouse))
 
 # [Exercise 5.5 Detect Human Movement]
 
