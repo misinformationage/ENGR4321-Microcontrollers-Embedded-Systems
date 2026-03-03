@@ -56,7 +56,7 @@ The ESP32 uses WiFi, MQTT, and the Adafruit API to subscribe and publish to data
 
 **Course:** ENGR 4321 Microcontroller and Embedded Systems  
 **Student:** Skylar Stanke  
-**Date:** March 2n. 2026  
+**Date:** March 2nd 2026  
 
 ## Project Overview
 This project expands upon previous exercises, using sensors, data pulled from OpenWeather API, and Wifi capability to publish to an Adafruit IO dashboard. The dashboard, as well as an LED, LCD, and buzzer function to alert plant owners when negative conditions have been reported in a greenhouse that the ESP32 resides in.
