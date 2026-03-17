@@ -4,6 +4,7 @@ This repository contains a source-folder and project description for multiple EN
 - ([Exercise 5.5 Detect Human Movement](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#exercise-55-detect-human-movement))
 - ([Exercise 8.6 Temperature and Humidity Monitoring with Adafruit IO](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#exercise-86-temperature-and-humidity-monitoring-with-adafruit-io))
 - ([Project 1: Smart Greenhouse](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#project-1-smart-greenhouse))
+- ([Raspberry Pi Pico W: Exercise 1](https://github.com/misinformationage/ENGR4321-Microcontrollers-Embedded-Systems?tab=readme-ov-file#raspberry-pi-pico-w-exercise-1))
 
 # [Exercise 5.5 Detect Human Movement]
 
@@ -95,7 +96,7 @@ This project focuses on bringing familiar logic to MicroPython and the Raspberry
 
 ## How It Works
 
-On startup the Pi Pico includes the "Pin" class from the machine library, as well as the time and random libraries. The LEDs and push-buttons are connected to the appropriate GPIO pins as outputs and inputs respecively, and some global variables are declared. A "while True:" loop is used instead of a "void loop", however it functions similarly as a looping section of code. Here a random integer from 0-3 is chosen, and four if-statements check if their integer has been chosen. The corresponding if-statement then turns on its LED, begins a timer, and goes into another "while True:" loop. This loop is only broken when the appropriate button is pressed, where the code then calculates the elapsed time before picking another integer and repeating.
+On startup the Pi Pico includes the "Pin" class from the machine library, as well as the time and random libraries. The LEDs and push-buttons are connected to the appropriate GPIO pins as outputs and inputs respectively, and some global variables are declared. A "while True:" loop is used instead of a "void loop", however it functions similarly as a looping section of code. Here a random integer from 0-3 is chosen, and four if-statements check if their integer has been chosen. The corresponding if-statement then turns on its LED, begins a timer, and goes into another "while True:" loop. This loop is only broken when the appropriate button is pressed, where the code then calculates the elapsed time before picking another integer and repeating.
 
 ## Block Diagram
 <img width="571" height="261" alt="Pi Pico W Exercise 1 Block Diagram" src="https://github.com/user-attachments/assets/19b8938c-641c-4194-b5e6-8ea0156ab037" />
