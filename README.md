@@ -75,3 +75,28 @@ On startup the ESP32 establishes connections to Adafruit IO and OpenWeather, and
 
 ## Block Diagram
 <img width="681" height="581" alt="Project1_Block_Diagram" src="https://github.com/user-attachments/assets/b2de53b1-eb5d-40e8-8c3d-d0c25570597f"/>
+
+# [Raspberry Pi Pico W: Exercise 1]
+
+**Course:** ENGR 4321 Microcontroller and Embedded Systems  
+**Student:** Skylar Stanke  
+**Date:** March 16th 2026  
+
+## Project Overview
+This project focuses on bringing familiar logic to MicroPython and the Raspberry Pi Pico 2 W board. Using GPIO pins, pin assignments, stagnant and looping code, and other concepts from previous experiments, an LED Reaction Game is created.
+
+## Hardware Components (Simulated)
+* **Microcontroller:** Raspberry Pi Pico 2 W  
+* **Input:** [Push-Buttons]  
+* **Output:** [LEDs]  
+
+## Simulation Link
+[Click here to view the Wokwi Simulation](https://wokwi.com/projects/458685023611312129)
+
+## How It Works
+
+On startup the Pi Pico includes the "Pin" class from the machine library, as well as the time and random libraries. The LEDs and push-buttons are connected to the appropriate GPIO pins as outputs and inputs respecively, and some global variables are declared. A "while True:" loop is used instead of a "void loop", however it functions similarly as a looping section of code. Here a random integer from 0-3 is chosen, and four if-statements check if their integer has been chosen. The corresponding if-statement then turns on its LED, begins a timer, and goes into another "while True:" loop. This loop is only broken when the appropriate button is pressed, where the code then calculates the elapsed time before picking another integer and repeating.
+
+## Block Diagram
+<img width="571" height="261" alt="Pi Pico W Exercise 1 Block Diagram" src="https://github.com/user-attachments/assets/19b8938c-641c-4194-b5e6-8ea0156ab037" />
+
